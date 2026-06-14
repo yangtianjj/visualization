@@ -12,8 +12,19 @@
       ```
       Your answer...
 
+I classify the Gapminder World Health Chart as a good data visualization because it presents a complex global development story in a clear and intuitive way. The visualization compares countries by income and life expectancy, while also using bubble size to represent population and color to distinguish world regions. This makes it possible to understand several variables at once without turning the chart into a table of numbers.
+
+First, the main variables are encoded using position on a common scale: income is shown from left to right, and life expectancy is shown from bottom to top. This is an effective design choice because position is one of the easiest visual features for viewers to compare accurately. Second, the chart tells a clear story. It shows that richer countries generally have longer life expectancy, but it also reveals exceptions and differences between countries at similar income levels. Third, the interactive time feature helps the viewer understand change over time instead of seeing development as a fixed snapshot.
+
+The visualization could still be improved. First, because it uses several encodings at once, it could include a short built-in explanation for first-time users, such as “each bubble is a country.” Second, some bubbles overlap, especially in crowded regions of the chart, so a labeling or highlighting feature for selected countries could make comparison easier. Overall, however, this is a strong visualization because it is clear, data-rich, and story-driven.
 
 
+
+I classify the Reuters Florida “Stand Your Ground” gun deaths chart as a bad data visualization because its design makes the data easy to misread. The chart uses an inverted y-axis, meaning that larger values are placed lower on the chart and smaller values are placed higher. This goes against the normal convention for quantitative graphs, where larger values usually appear higher. As a result, the chart can give the first impression that gun deaths decreased after Florida enacted the Stand Your Ground law, even though the data actually increased after 2005.
+
+First, the axis design is misleading. A viewer who reads the line quickly may interpret the downward movement as a decrease, when it actually represents an increase. Second, the visual design conflicts with the data story. The chart uses a dramatic area shape, but the inverted scale makes the emotional visual effect more important than accurate interpretation. Third, the chart requires too much effort from the viewer. A good visualization should make the main trend easier to understand, not force the viewer to carefully inspect the axis before understanding the basic direction of change.
+
+This visualization could be improved in several ways. First, the y-axis should be redrawn in the standard direction, with smaller values at the bottom and larger values at the top. Second, the chart should use a simple line chart or bar chart instead of the dramatic inverted area design. Third, the chart could add a clear annotation around 2005 explaining that deaths increased after that point, while avoiding the implication that the law alone caused the increase. These changes would make the graph more accurate, transparent, and easier to interpret.
 
 
 
